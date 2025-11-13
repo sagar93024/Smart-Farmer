@@ -1,0 +1,26 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5fff3;
+  color: #222;
+}
+header { background-color: #2e8b57; color: white; text-align: center; padding: 15px; }
+nav { background-color: #006400; overflow: hidden; text-align: center; }
+nav a { display: inline-block; color: white; text-decoration: none; padding: 12px 20px; font-weight: bold; }
+nav a:hover { background-color: #32cd32; }
+main { padding: 20px; }
+section { background-color: white; margin-bottom: 20px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+h2 { color: #2e8b57; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+th { background-color: #b6e3a5; }
+ul li { margin-bottom: 8px; }
+.output { background-color: #e9f5ee; padding: 12px; border-radius: 6px; margin-top: 10px; }
+button { background-color: #228b22; color: white; border: none; padding: 8px 15px; border-radius: 6px; cursor: pointer; }
+button:hover { background-color: #2ecc71; }
+input, select, textarea { padding: 8px; margin: 5px 0; border-radius: 5px; border: 1px solid #ccc; width: 100%; box-sizing: border-box; }
+footer { background-color: #2e8b57; color: white; text-align: center; padding: 10px; }
+@media screen and (max-width: 600px) {
+  nav a { display: block; padding: 10px; }
+}
