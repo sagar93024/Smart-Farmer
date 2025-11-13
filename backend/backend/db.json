@@ -1,0 +1,5 @@
+[
+  {"date":"2025-11-13","district":"Bhopal","market":"Bhopal Mandi","commodity":"Wheat","min_price":1800,"max_price":2000,"modal_price":1900},
+  {"date":"2025-11-13","district":"Indore","market":"Indore Mandi","commodity":"Rice","min_price":2200,"max_price":2500,"modal_price":2350},
+  {"date":"2025-11-13","district":"Gwalior","market":"Gwalior Mandi","commodity":"Maize","min_price":1500,"max_price":1700,"modal_price":1600}
+]
