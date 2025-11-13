@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Farming | 2025 Smart Farmer</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌾 Smart Farmer</h1>
+  <p>Helping farmers with modern agriculture solutions</p>
+</header>
+
+<nav>
+  <a href="#fasal">Crops Info</a>
+  <a href="#upkaran">Krishi Yantra</a>
+  <a href="#yojana">Govt Schemes</a>
+  <a href="#mandi">Mandi Rates</a>
+  <a href="#recommend">Crop Suggestion</a>
+  <a href="#weather">Weather</a>
+  <a href="#vendor">Vendors</a>
+  <a href="#helpline">Helpline</a>
+</nav>
+
+<main>
+  <!-- Crops Info -->
+  <section id="fasal">
+    <h2>🌱 Crops by Season</h2>
+    <table>
+      <tr><th>Season</th><th>Main Crops</th></tr>
+      <tr><td>Kharif (Jun–Oct)</td><td>Rice, Maize, Bajra, Soybean, Cotton</td></tr>
+      <tr><td>Rabi (Nov–Apr)</td><td>Wheat, Barley, Mustard, Gram, Pea</td></tr>
+      <tr><td>Zaid (Apr–Jun)</td><td>Watermelon, Muskmelon, Cucumber, Sunflower</td></tr>
+    </table>
+  </section>
+
+  <!-- Krishi Yantra -->
+  <section id="upkaran">
+    <h2>🚜 Krishi Yantra</h2>
+    <ul>
+      <li>Tractor – Plowing & Transport</li>
+      <li>Thresher – Grain Separation</li>
+      <li>Plough – Land Preparation</li>
+      <li>Sprayer – Pesticide Application</li>
+      <li>Harvester – Crop Harvest</li>
+    </ul>
+  </section>
+
+  <!-- Government Schemes -->
+  <section id="yojana">
+    <h2>🏛 Govt Schemes</h2>
+    <ul>
+      <li><a href="https://pmkisan.gov.in/" target="_blank">PM-KISAN</a></li>
+      <li><a href="https://pmfby.gov.in/" target="_blank">PMFBY</a></li>
+      <li><a href="https://agrimachinery.gov.in/" target="_blank">Agriculture Mechanization</a></li>
+      <li><a href="https://soilhealth.dac.gov.in/" target="_blank">Soil Health Card</a></li>
+      <li><a href="https://rkvy.nic.in/" target="_blank">RKVY</a></li>
+    </ul>
+  </section>
+
+  <!-- Mandi Rates -->
+  <section id="mandi">
+    <h2>📊 Mandi Rates</h2>
+    <div id="mandiOutput">Loading...</div>
+  </section>
+
+  <!-- Crop Suggestion -->
+  <section id="recommend">
+    <h2>Crop Suggestion</h2>
+    <form id="cropForm">
+      <label>Soil Type:</label>
+      <select id="soil">
+        <option value="clay">Clay</option>
+        <option value="sandy">Sandy</option>
+        <option value="loamy">Loamy</option>
+        <option value="gad">Gad</option>
+      </select><br>
+      <label>Moisture (%):</label>
+      <input type="number" id="moisture" min="0" max="100" required><br>
+      <label>Temperature (°C):</label>
+      <input type="number" id="temperature" required><br>
+      <button type="button" onclick="recommendCrop()">Get Suggestion</button>
+    </form>
+    <div class="output" id="cropOutput"></div>
+  </section>
+
+  <!-- Weather -->
+  <section id="weather">
+    <h2>🌦 Weather</h2>
+    <div id="weatherOutput">Loading...</div>
+  </section>
+
+  <!-- Vendors -->
+  <section id="vendor">
+    <h2>Vendors</h2>
+    <div id="vendorOutput">Loading vendors...</div>
+  </section>
+
+  <!-- Helpline -->
+  <section id="helpline">
+    <h2>Farmer Helpline</h2>
+    <ul>
+      <li><a href="tel:1800111233">Kisan Helpline 1800-111-233</a></li>
+      <li><a href="tel:155335">Agriculture Helpline 155335</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Smart Farmer</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
