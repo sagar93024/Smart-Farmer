@@ -1,2 +1,2 @@
 # Smart-Farmer
-Minor Project for College Submission
+Minor Project for College Submission 
